@@ -1,6 +1,84 @@
 header {
     position: absolute;
-    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 52.64px;
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-img {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img nav{
+    margin-left: 69.4px
+}
+
+.nav-img nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 386.9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-img nav a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    color: white;    
+}
+
+.nav-img nav a:hover {
+    color: #FF6C00;
+}
+
+header address {
+    display: flex;
+    align-items: center;
+    margin-right: 71px;
+}
+
+header address *:last-child {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 1px solid #FF6C00;
+    display: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header address *:first-child {
+    color: white;
+    font-style: normal;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
 }
 
 .first-container {
