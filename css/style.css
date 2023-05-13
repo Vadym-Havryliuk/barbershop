@@ -1,0 +1,36 @@
+header {
+    position: absolute;
+    opacity: 0;
+}
+
+.first-container {
+    height: 680px;
+    display: flex;
+}
+
+aside {
+    width: 148.34px;
+    height: 100%;
+    position: relative;
+}
+
+.first-container > div {
+    flex-grow: 1;
+}
+
+.main-section {
+    width: 95%;
+    background-image: url("../img/Slider img 3.jpg");
+    background-size: cover;
+    height: 680px;
+}
+
+.transform-content {
+    position: absolute;
+    bottom: 0px;
+    left: 100%;
+    height: 148.34px;
+    width: 680px;
+    transform-origin: left bottom;
+    transform: rotate(-90deg);
+}
