@@ -66,7 +66,7 @@ aside {
 .content-header {
     position: absolute;
     top: 272px;
-    left: 96px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -102,6 +102,10 @@ aside {
     font-family: Raleway;
 }
 
+.main-text {
+    margin-left: 96px;
+}
+
 .main-text p {
     width: 400px;
     font-family: 'Open Sans';
@@ -109,4 +113,62 @@ aside {
     font-size: 18px;
     line-height: 30px;
     color: #9DA4BD;
+}
+.back-forward {
+    position: absolute;
+    bottom: 34px;
+    right: 107px;
+    display: flex;
+}
+
+.back .forward{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.back {
+    color: #9DA4BD99;
+    margin-right: 25px;
+    text-align: right;
+}
+
+.forward {
+    color: #FFFFFF;
+}
+
+.back div:last-child {
+    background-color: #9DA4BD99;
+    width: 57px;
+    height: 1px;
+    margin-top: 15px;
+}
+
+.forward div:last-child{
+    background-color: white;
+    width: 57px;
+    height: 1px;
+    margin-top: 15px;
+}
+
+.content-header .images {
+    position: absolute;
+    top: 53px;
+    right: 52px;
+}
+
+.content-header .images *{
+    width: 7.63px;
+    height: 2px;
+    background-color: #9DA4BD;
+    margin-bottom: 12px;
+    margin-left: auto;
+}
+
+.content-header .images *:first-child {
+    width: 17.16px;
+    height: 2px;
+    background-color: white;
 }
