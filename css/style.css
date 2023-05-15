@@ -649,3 +649,147 @@ aside {
 .images-3 div:nth-child(4) {
     background-image: url("../img/Rectangle 28.jpg");
 }
+
+.section-7 {
+    display: flex;
+}
+
+.section-7 > * {
+    flex-grow: 1;
+}
+
+.online-registration {
+    box-sizing: border-box;
+    background-color: #191C26;
+    border: 1px solid #191C26;
+}
+
+.online-registration h3 {
+    margin: 130px 56px 44px;
+    color: white;
+    font: 700 42px/49.31px 'Raleway';
+    box-sizing: border-box;
+}
+
+form {
+    margin: 0 55px 193px;
+}
+
+.name-number {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.name-number * {
+    background-color: transparent;
+    margin: 0;
+    padding: 0 0 8px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #9DA4BD66;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.name-number *::placeholder {
+    font: 600 11px/15px 'Open Sans';
+}
+
+.name-number *:focus {
+    outline: none;
+}
+
+.name-number *:hover {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.name-number *:hover::placeholder {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font: 600 11px/15px 'Open Sans';
+}
+
+input[placeholder='Имя*'] {
+    width: 270px;
+}
+
+input[placeholder='Телефон*'] {
+    width: 260px;
+}
+
+label {
+    font: 600 11px/15px 'Open Sans';
+    color: #9DA4BD66;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#message {
+    height: 60px;
+    background-color: transparent;
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #9DA4BD66;
+    width: 100%;
+    resize: none;
+    margin-bottom: 44px;
+    cursor: pointer;
+}
+
+label:hover {
+    color: white;
+}
+
+#message:hover {
+    border-bottom: 1px solid white;
+}
+
+form button {
+    border: 1px solid #FF6C00;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    font: 600 12px/16.34px 'Open Sans';
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.address-info {
+    background-color: #191C26;
+    background-image: url("../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.address-info h3 {
+    margin: 130px 100px 40px;
+    color: white;
+    font: 700 42px/49.31px 'Raleway';
+}
+
+.a-t-e {
+    margin: 0 100px 70px;
+    width: 230px;
+    font: normal 400 18px/30px 'Open Sans';
+    color: #9DA4BD;
+}
+
+.a-t-e > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.a-t-e > * {
+    display: flex;
+}
+
+.a-t-e > *:last-child {
+    text-decoration: underline;
+}
+
