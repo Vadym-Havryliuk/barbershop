@@ -433,3 +433,89 @@ aside {
     font: 600 12px/16.34px 'Open Sans';
 }
 
+.section-4 {
+    display: flex;
+}
+
+.count-info {
+    margin: 121px 130px 130px 155px;
+    display: flex;
+}
+
+.count {
+    width: 170px;
+    height: 133px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    border: 1px solid #F7F7F7;
+}
+
+.count:first-child {
+    margin-bottom: 30px;
+}
+
+.left-block {
+    margin-right: 30px;
+}
+
+.right-block {
+    margin-top: 35px;
+}
+
+.count div:first-child {
+    font: 700 42px/57.2px 'Open Sans';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.count div:first-child::after {
+    content:'+';
+    font: 600 16px/21.79px 'Open Sans';
+    color: #FF6C00;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.count div:last-child {
+    font: 600 11px/15px 'Open Sans';
+    text-align: center;
+    margin: 0 auto;
+    width: 130px;
+}
+
+.advantages {
+    margin-top: 130px;
+}
+
+.old-school {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.old-school .line-4 {
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    margin-right: 20px;
+}
+
+.old-school .text {
+    font: 600 11px/15px 'Open Sans';
+    text-transform: uppercase;
+}
+
+.advantages h2 {
+    margin-bottom: 20px;
+    font: 700 42px/49.31px 'Raleway';
+    width: 412px;
+}
+
+.advantages p {
+    font: 400 18px/30px 'Open Sans';
+    width: 500px;
+    color: #555555;
+}
