@@ -793,3 +793,65 @@ form button {
     text-decoration: underline;
 }
 
+.work-time, .time-work {
+    margin-left: 100px;
+}
+
+.work-time {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.work-time .line-8{
+    background-color: #9DA4BD66;
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+}
+
+.work-time .text {
+    color: white;
+    text-transform: uppercase;
+    font: 600 11px/15px 'Opne Sans';
+}
+
+.time-work {
+    font: 400 18px/30px 'Opne Sans';
+    color: #9DA4BD;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px;
+    align-items: center;
+}
+
+.copyright {
+    font: 600 11px/15px 'Open Sans';
+    color: #9DA4BD;
+}
+
+.i-y {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+
+.i-y div:first-child {
+    background-color: #303030;
+    width: 60px;
+    height: 1px;
+}
+
+.i-y div:not(:first-child) {
+    font: 600 11px/15px 'Open Sans';
+    color: #303030;
+    cursor: pointer;
+}
+
+.i-y div:not(:first-child):hover {
+    color: #FF6C00;
+}
