@@ -519,3 +519,133 @@ aside {
     width: 500px;
     color: #555555;
 }
+
+.section-5 {
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    border: 1px solid #F7F7F7;
+}
+
+.atmosphere {
+    display: flex;
+    align-items: center;
+    margin: 130px 55px 20px;
+}
+.atmosphere .line-5 {
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    margin-right: 20px;
+}
+
+.atmosphere .text {
+    font: 600 11px/15px 'Open Sans';
+    color: #303030;
+    text-transform: uppercase;
+}
+
+.section-5 h2 {
+    margin: 0 55px 44px;
+    font: 700 42px/49.31px 'Raleway';
+}
+
+.barbers {
+    display: flex;
+    margin: 0 55px 130px;
+    justify-content: space-between;
+}
+
+.about-barber {
+    width: 370px;
+}
+
+.barber-image img {
+    width: 370px;
+}
+
+.barber-image figcaption {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.barber-name {
+    margin-bottom: 8px;
+    font: 400 18px/24.5px 'Open Sans';
+    color: #303030;
+}
+
+.barber-position {
+    color: #FF6C00;
+    font: 400 14px/19px 'Open Sans';
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    margin: 0 auto;
+}
+
+.about-barber .social-networks div {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: white;
+}
+
+.section-6 {
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.section-6 .container {
+    margin: 130px 55px;
+}
+
+.section-6 .language {
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.section-6 .language .line-6 {
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background-color: #303030;
+}
+
+.section-6 .language .text {
+    text-transform: uppercase;
+    color: #303030;
+    font: 600 11px/15px 'Open Sans';
+}
+
+.images-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-3 div {
+    width: 270px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.images-3 div:nth-child(1) {
+    background-image: url("../img/Rectangle 25.jpg");
+}
+
+.images-3 div:nth-child(2) {
+    background-image: url("../img/Rectangle 26.jpg");
+}
+
+.images-3 div:nth-child(3) {
+    background-image: url("../img/Rectangle 27.jpg");
+}
+
+.images-3 div:nth-child(4) {
+    background-image: url("../img/Rectangle 28.jpg");
+}
